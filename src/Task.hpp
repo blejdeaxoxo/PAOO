@@ -7,6 +7,8 @@ class Task{
         char* title;
 
     public:
+        Task();
+
         Task(int _id, const char* _title);
 
         ~Task();
@@ -15,7 +17,8 @@ class Task{
 
         Task(Task&& original) noexcept;
 
-        int getId() const;
+        Task& operator=(const Task& other);
 
+        int getId() const;
         const char* getTitle() const;
 };
