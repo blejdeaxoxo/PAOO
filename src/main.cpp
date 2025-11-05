@@ -1,6 +1,7 @@
-#include<iostream> 
+#include <iostream>
+#include "Task.hpp"
 
 int main(){
-    std::cout<<"Whaddup"<< std::endl;
-    return 0;
+    Task t1(1, "citit");
+    std::cout << t1.getTitle() << std::endl;
 }
