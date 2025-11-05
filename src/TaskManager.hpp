@@ -25,6 +25,9 @@ class TaskManager{
 
         void printTasks() const;
 
+        TaskManager& operator=(const TaskManager&) = delete;
+        TaskManager& operator=(TaskManager&&) = delete;
+
         size_t getPendingCount() const;
         size_t getDoneCount() const;
         const Task* getPendingTasks() const;

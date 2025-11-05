@@ -18,6 +18,7 @@ class Task{
         Task(Task&& original) noexcept;
 
         Task& operator=(const Task& other);
+        Task& operator=(Task&& other) noexcept;
 
         int getId() const;
         const char* getTitle() const;

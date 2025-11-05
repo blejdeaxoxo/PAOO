@@ -33,5 +33,20 @@ Task& Task::operator=(const Task& other){
     return *this;
 }
 
+Task& Task::operator=(Task&& other) noexcept{
+    if (this == &other)
+        return *this;
+
+    delete[] title;
+
+    title = other.title;
+    id = other.id;
+
+    other.title = nullptr;
+    other.id = 0;
+
+    return *this;
+}
+
 int Task::getId() const { return id; }
 const char* Task::getTitle() const { return title; }
