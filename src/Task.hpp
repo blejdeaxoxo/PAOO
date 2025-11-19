@@ -8,13 +8,11 @@ class Task{
 
     public:
         Task();
-
         Task(int _id, const char* _title);
 
         ~Task();
 
         Task(const Task& original);
-
         Task(Task&& original) noexcept;
 
         Task& operator=(const Task& other);
