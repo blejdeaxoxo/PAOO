@@ -148,6 +148,7 @@ CMakeFiles/TaskManagerApp.dir/src/main.cpp.o: \
  /usr/include/c++/13/bits/locale_facets.tcc \
  /usr/include/c++/13/bits/basic_ios.tcc \
  /usr/include/c++/13/bits/ostream.tcc /usr/include/c++/13/istream \
- /usr/include/c++/13/bits/istream.tcc /home/alex/PAOO/src/Task.hpp \
+ /usr/include/c++/13/bits/istream.tcc \
+ /home/alex/PAOO/src/PriorityTask.hpp /home/alex/PAOO/src/Task.hpp \
  /usr/include/c++/13/cstring /usr/include/string.h /usr/include/strings.h \
- /home/alex/PAOO/src/TaskManager.hpp
+ /home/alex/PAOO/src/Worker.hpp

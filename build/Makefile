@@ -129,6 +129,30 @@ TaskManagerApp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TaskManagerApp.dir/build.make CMakeFiles/TaskManagerApp.dir/build
 .PHONY : TaskManagerApp/fast
 
+src/PriorityTask.o: src/PriorityTask.cpp.o
+.PHONY : src/PriorityTask.o
+
+# target to build an object file
+src/PriorityTask.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TaskManagerApp.dir/build.make CMakeFiles/TaskManagerApp.dir/src/PriorityTask.cpp.o
+.PHONY : src/PriorityTask.cpp.o
+
+src/PriorityTask.i: src/PriorityTask.cpp.i
+.PHONY : src/PriorityTask.i
+
+# target to preprocess a source file
+src/PriorityTask.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TaskManagerApp.dir/build.make CMakeFiles/TaskManagerApp.dir/src/PriorityTask.cpp.i
+.PHONY : src/PriorityTask.cpp.i
+
+src/PriorityTask.s: src/PriorityTask.cpp.s
+.PHONY : src/PriorityTask.s
+
+# target to generate assembly for a file
+src/PriorityTask.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TaskManagerApp.dir/build.make CMakeFiles/TaskManagerApp.dir/src/PriorityTask.cpp.s
+.PHONY : src/PriorityTask.cpp.s
+
 src/Task.o: src/Task.cpp.o
 .PHONY : src/Task.o
 
@@ -177,6 +201,30 @@ src/TaskManager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TaskManagerApp.dir/build.make CMakeFiles/TaskManagerApp.dir/src/TaskManager.cpp.s
 .PHONY : src/TaskManager.cpp.s
 
+src/Worker.o: src/Worker.cpp.o
+.PHONY : src/Worker.o
+
+# target to build an object file
+src/Worker.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TaskManagerApp.dir/build.make CMakeFiles/TaskManagerApp.dir/src/Worker.cpp.o
+.PHONY : src/Worker.cpp.o
+
+src/Worker.i: src/Worker.cpp.i
+.PHONY : src/Worker.i
+
+# target to preprocess a source file
+src/Worker.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TaskManagerApp.dir/build.make CMakeFiles/TaskManagerApp.dir/src/Worker.cpp.i
+.PHONY : src/Worker.cpp.i
+
+src/Worker.s: src/Worker.cpp.s
+.PHONY : src/Worker.s
+
+# target to generate assembly for a file
+src/Worker.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TaskManagerApp.dir/build.make CMakeFiles/TaskManagerApp.dir/src/Worker.cpp.s
+.PHONY : src/Worker.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -210,12 +258,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... TaskManagerApp"
+	@echo "... src/PriorityTask.o"
+	@echo "... src/PriorityTask.i"
+	@echo "... src/PriorityTask.s"
 	@echo "... src/Task.o"
 	@echo "... src/Task.i"
 	@echo "... src/Task.s"
 	@echo "... src/TaskManager.o"
 	@echo "... src/TaskManager.i"
 	@echo "... src/TaskManager.s"
+	@echo "... src/Worker.o"
+	@echo "... src/Worker.i"
+	@echo "... src/Worker.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

@@ -1,6 +1,7 @@
-CMakeFiles/TaskManagerApp.dir/src/Task.cpp.o: \
- /home/alex/PAOO/src/Task.cpp /usr/include/stdc-predef.h \
- /home/alex/PAOO/src/Task.hpp /usr/include/c++/13/cstring \
+CMakeFiles/TaskManagerApp.dir/src/PriorityTask.cpp.o: \
+ /home/alex/PAOO/src/PriorityTask.cpp /usr/include/stdc-predef.h \
+ /home/alex/PAOO/src/PriorityTask.hpp /home/alex/PAOO/src/Task.hpp \
+ /usr/include/c++/13/cstring \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -16,7 +17,11 @@ CMakeFiles/TaskManagerApp.dir/src/Task.cpp.o: \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
- /usr/include/strings.h /usr/include/c++/13/iostream \
+ /usr/include/strings.h /usr/include/c++/13/utility \
+ /usr/include/c++/13/bits/stl_relops.h \
+ /usr/include/c++/13/bits/stl_pair.h /usr/include/c++/13/type_traits \
+ /usr/include/c++/13/bits/move.h /usr/include/c++/13/bits/utility.h \
+ /usr/include/c++/13/initializer_list /usr/include/c++/13/iostream \
  /usr/include/c++/13/bits/requires_hosted.h /usr/include/c++/13/ostream \
  /usr/include/c++/13/ios /usr/include/c++/13/iosfwd \
  /usr/include/c++/13/bits/stringfwd.h \
@@ -36,9 +41,7 @@ CMakeFiles/TaskManagerApp.dir/src/Task.cpp.o: \
  /usr/include/c++/13/bits/exception_defines.h \
  /usr/include/c++/13/bits/cxxabi_init_exception.h \
  /usr/include/c++/13/typeinfo /usr/include/c++/13/bits/hash_bytes.h \
- /usr/include/c++/13/new /usr/include/c++/13/bits/move.h \
- /usr/include/c++/13/type_traits \
- /usr/include/c++/13/bits/nested_exception.h \
+ /usr/include/c++/13/new /usr/include/c++/13/bits/nested_exception.h \
  /usr/include/c++/13/bits/char_traits.h \
  /usr/include/c++/13/bits/localefwd.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++locale.h \
@@ -97,12 +100,10 @@ CMakeFiles/TaskManagerApp.dir/src/Task.cpp.o: \
  /usr/include/c++/13/backward/binders.h \
  /usr/include/c++/13/ext/numeric_traits.h \
  /usr/include/c++/13/bits/stl_algobase.h \
- /usr/include/c++/13/bits/stl_pair.h /usr/include/c++/13/bits/utility.h \
  /usr/include/c++/13/debug/debug.h \
  /usr/include/c++/13/bits/predefined_ops.h /usr/include/c++/13/bit \
  /usr/include/c++/13/bits/refwrap.h /usr/include/c++/13/bits/invoke.h \
  /usr/include/c++/13/bits/range_access.h \
- /usr/include/c++/13/initializer_list \
  /usr/include/c++/13/bits/basic_string.h \
  /usr/include/c++/13/ext/alloc_traits.h \
  /usr/include/c++/13/bits/alloc_traits.h \

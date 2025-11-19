@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/TaskManagerApp.dir/src/main.cpp.o CMakeFiles/TaskManagerApp.dir/src/Task.cpp.o CMakeFiles/TaskManagerApp.dir/src/TaskManager.cpp.o -o TaskManagerApp 
+/usr/bin/c++ CMakeFiles/TaskManagerApp.dir/src/main.cpp.o CMakeFiles/TaskManagerApp.dir/src/Task.cpp.o CMakeFiles/TaskManagerApp.dir/src/TaskManager.cpp.o CMakeFiles/TaskManagerApp.dir/src/PriorityTask.cpp.o CMakeFiles/TaskManagerApp.dir/src/Worker.cpp.o -o TaskManagerApp 

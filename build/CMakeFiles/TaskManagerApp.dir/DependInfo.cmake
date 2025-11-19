@@ -8,8 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/alex/PAOO/src/PriorityTask.cpp" "CMakeFiles/TaskManagerApp.dir/src/PriorityTask.cpp.o" "gcc" "CMakeFiles/TaskManagerApp.dir/src/PriorityTask.cpp.o.d"
   "/home/alex/PAOO/src/Task.cpp" "CMakeFiles/TaskManagerApp.dir/src/Task.cpp.o" "gcc" "CMakeFiles/TaskManagerApp.dir/src/Task.cpp.o.d"
   "/home/alex/PAOO/src/TaskManager.cpp" "CMakeFiles/TaskManagerApp.dir/src/TaskManager.cpp.o" "gcc" "CMakeFiles/TaskManagerApp.dir/src/TaskManager.cpp.o.d"
+  "/home/alex/PAOO/src/Worker.cpp" "CMakeFiles/TaskManagerApp.dir/src/Worker.cpp.o" "gcc" "CMakeFiles/TaskManagerApp.dir/src/Worker.cpp.o.d"
   "/home/alex/PAOO/src/main.cpp" "CMakeFiles/TaskManagerApp.dir/src/main.cpp.o" "gcc" "CMakeFiles/TaskManagerApp.dir/src/main.cpp.o.d"
   )
 

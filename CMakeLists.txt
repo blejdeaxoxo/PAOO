@@ -9,6 +9,8 @@ add_executable(TaskManagerApp
     src/main.cpp
     src/Task.cpp
     src/TaskManager.cpp
+    src/PriorityTask.cpp
+    src/Worker.cpp
 )
 
 target_include_directories(TaskManagerApp PRIVATE

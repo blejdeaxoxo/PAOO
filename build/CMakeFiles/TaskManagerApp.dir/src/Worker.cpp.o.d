@@ -1,6 +1,7 @@
-CMakeFiles/TaskManagerApp.dir/src/Task.cpp.o: \
- /home/alex/PAOO/src/Task.cpp /usr/include/stdc-predef.h \
- /home/alex/PAOO/src/Task.hpp /usr/include/c++/13/cstring \
+CMakeFiles/TaskManagerApp.dir/src/Worker.cpp.o: \
+ /home/alex/PAOO/src/Worker.cpp /usr/include/stdc-predef.h \
+ /home/alex/PAOO/src/Worker.hpp /home/alex/PAOO/src/Task.hpp \
+ /usr/include/c++/13/cstring \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \

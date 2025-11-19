@@ -1,8 +1,12 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/TaskManagerApp.dir/src/PriorityTask.cpp.o"
+  "CMakeFiles/TaskManagerApp.dir/src/PriorityTask.cpp.o.d"
   "CMakeFiles/TaskManagerApp.dir/src/Task.cpp.o"
   "CMakeFiles/TaskManagerApp.dir/src/Task.cpp.o.d"
   "CMakeFiles/TaskManagerApp.dir/src/TaskManager.cpp.o"
   "CMakeFiles/TaskManagerApp.dir/src/TaskManager.cpp.o.d"
+  "CMakeFiles/TaskManagerApp.dir/src/Worker.cpp.o"
+  "CMakeFiles/TaskManagerApp.dir/src/Worker.cpp.o.d"
   "CMakeFiles/TaskManagerApp.dir/src/main.cpp.o"
   "CMakeFiles/TaskManagerApp.dir/src/main.cpp.o.d"
   "TaskManagerApp"

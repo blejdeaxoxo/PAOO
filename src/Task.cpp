@@ -1,5 +1,5 @@
 #include "Task.hpp"
-
+#include <iostream>
 Task::Task() : id(0), title(nullptr) {}
 
 Task::Task(int _id, const char* _title) : id(_id){
@@ -21,8 +21,10 @@ Task::Task(Task&& original) noexcept : id(original.id), title(original.title){
 }
 
 Task& Task::operator=(const Task& other){
-    if (this == &other)
+    if (this == &other){
+        std::cout<<"Avoided self assignment of task "<< this->getId()<<"\n";
         return *this;
+    }
 
     delete[] title;
 

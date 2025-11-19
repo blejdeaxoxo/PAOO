@@ -1,4 +1,6 @@
 #include "PriorityTask.hpp"
+#include <utility>
+#include <iostream>
 
 PriorityTask::PriorityTask() : Task(), priority(0) {}
 
@@ -15,8 +17,10 @@ PriorityTask::PriorityTask(PriorityTask&& original) noexcept
 }
 
 PriorityTask& PriorityTask::operator=(const PriorityTask& other){
-    if (this == &other)
+    if (this == &other){
+        std::cout<<"Avoided self assignment of task "<< this->getId()<<"\n";
         return *this;
+    }
 
     Task::operator=(other);
     priority = other.priority;

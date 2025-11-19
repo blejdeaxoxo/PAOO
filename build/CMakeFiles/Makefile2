@@ -81,12 +81,12 @@ clean: CMakeFiles/TaskManagerApp.dir/clean
 CMakeFiles/TaskManagerApp.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TaskManagerApp.dir/build.make CMakeFiles/TaskManagerApp.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TaskManagerApp.dir/build.make CMakeFiles/TaskManagerApp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/alex/PAOO/build/CMakeFiles --progress-num=1,2,3,4 "Built target TaskManagerApp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/alex/PAOO/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target TaskManagerApp"
 .PHONY : CMakeFiles/TaskManagerApp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/TaskManagerApp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alex/PAOO/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alex/PAOO/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/TaskManagerApp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/alex/PAOO/build/CMakeFiles 0
 .PHONY : CMakeFiles/TaskManagerApp.dir/rule
